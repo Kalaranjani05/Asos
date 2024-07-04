@@ -1,0 +1,71 @@
+#main {
+  z-index: 1000;
+}
+.dress {
+  margin: 0 10px;
+  font-size: 10px;
+}
+.nav3 .hlink {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+.nav4 {
+  border: 2px solid white;
+  color: white;
+}
+#four .nav4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fdresses {
+  font-weight: bold;
+}
+.content {
+  /* background: #4CAF50; */
+  color: black;
+  /* padding: 15px; */
+  width: 50%;
+  height: 100px;
+  overflow-y: scroll;
+  /* border: 1px solid #ccc; */
+  margin: auto;
+}
+.sort {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.sorting {
+  background-color: rgba(128, 128, 128, 0.194);
+  padding: 15px 0px 15px 0px;
+}
+.sorticon {
+  padding: 0px 50px 0px 50px;
+}
+.dsd {
+  color: black;
+}
+
+.imgcontent {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+.fimg p {
+  font-weight: bold;
+}
+.fimg {
+  position: relative;
+  z-index: 0; 
+}
+
+.heart-icon {
+  position: absolute;
+  top: 10px; 
+  left: 10px; 
+  font-size: 24px; 
+  cursor: pointer;
+  z-index: 1; 
+}

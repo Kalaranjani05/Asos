@@ -1,0 +1,155 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  /* background:yellow; */
+}
+
+#one li {
+  list-style: none;
+  border-right: 1px solid rgb(193, 182, 182);
+  font-size: 13px;
+  text-align: center;
+  margin-right: 20px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  /* margin-right: 10px; */
+}
+#main i {
+  font-size: 20px;
+}
+#one {
+  border: 1px solid rgb(167, 157, 157);
+  background: rgba(229, 223, 223, 0.54);
+}
+#search {
+  /* width: 800px; */
+  border-radius: 20px;
+  /* height: 40px; */
+  outline: none;
+  
+}
+.nav {
+  border: 1px solid black;
+}
+/* .nav input{
+    padding-left: 10px;
+    border: none;
+} */
+.nav a {
+  color: white;
+}
+.nav h2 {
+  color: white;
+}
+#nav {
+  /* margin-top: -16px; */
+  background-color: black;
+}
+#main {
+  position: sticky;
+  top: 0;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+#lists {
+  background: #000000b9;
+}
+
+#lists li {
+  font-size: 15px;
+  /* padding: 5px; */
+  color: white;
+  cursor: pointer;
+}
+#three {
+  border: 1px solid black;
+}
+#four {
+  border-bottom: 1px solid white;
+}
+#four ul #li {
+  border: 3px solid black;
+  font-size: 13px;
+  font-weight: bold;
+}
+#four ul li {
+  font-size: 13px;
+  font-weight: bold;
+}
+#imgp p {
+  cursor: pointer;
+  font-weight: bold;
+}
+#port p {
+  font-weight: bold;
+  cursor: pointer;
+}
+#twoimg button:hover {
+  background: black;
+  color: white;
+}
+#button {
+  width: 150px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#btn2 {
+  width: 170px;
+  font-size: 17px;
+  font-weight: bold;
+}
+#stock {
+  background-image: radial-gradient(rgb(239, 151, 166), rgb(219, 89, 111));
+}
+#footer p {
+  border-right: 1px solid gray;
+  padding: 3px 9px;
+  font-size: 10px;
+  cursor: pointer;
+}
+#footer1 {
+  font-size: 14px;
+  color: gray;
+}
+#footer1 p {
+  cursor: pointer;
+}
+#footer1 h5 {
+  font-size: 17px;
+}
+i {
+  cursor: pointer;
+}
+#profile-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  min-width: 150px;
+  font-size: 15px;
+}
+
+#profile-dropdown .dropdown-item {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+}
+
+#profile-dropdown .dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+.nav-item.dropdown:hover #profile-dropdown {
+  display: block;
+}

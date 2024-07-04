@@ -1,0 +1,71 @@
+#container {
+    background-image: url(./Images/login.jpg!d);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgba(255, 255, 255, 0.053);
+  }
+  
+  .input-container {
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  #input {
+    width: 100%;
+    padding: 10px 10px 10px 40px; 
+    background-color: rgba(0, 0, 0, 0.063);
+    /* border: none; */
+    border-radius: 20px;
+    color: white;
+    outline: none;
+  }
+  
+  #icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: white;
+  }
+  
+  #btn {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: aqua;
+    border: none;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  #login {
+    text-align: center;
+    color: green;
+  }
+  
+  #signup {
+    display: flex;
+    justify-content: flex-end;
+    color: gray;
+    text-decoration: none;
+  }
+  
+  #signup span {
+    color: blue;
+    padding-left: 10px;
+  }
+  
